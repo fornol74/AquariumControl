@@ -1,60 +1,67 @@
 {
     "controls" : [
         {
-            "name" : "co2Flow",
+            "name" : "CO2 Flow",
             "port" : 23,
             "activeHigh" : false,
-            "startTime" : "07:45:00",
-            "endTime" : "10:45:00"
+            "startTime" : "07:15:00",
+            "endTime" : "14:15:00"
         },
         {
-            "name" : "plantLight",
+            "name" : "Plant Light",
             "port" : 17,
             "activeHigh" : false,
-            "startTime" : "08:00:00",
-            "endTime" : "09:30:00"
+            "startTime" : "07:30:00",
+            "endTime" : "14:30:00"
         },
         {
-            "name" : "co2Flow",
-            "port" : 23,
-            "activeHigh" : false,
-            "startTime" : "15:45:00",
-            "endTime" : "18:45:00"
-        },
-        {
-            "name" : "plantLight",
-            "port" : 17,
-            "activeHigh" : false,
-            "startTime" : "16:00:00",
-            "endTime" : "17:30:00"
-        },
-        {
-            "name" : "tankCooler",
+            "name" : "Tank Cooler",
             "port" : 25,
             "activeHigh" : false,
             "startTime" : "00:00:00",
             "endTime" : "23:59:59"
         },
         {
-            "name" : "canisterFilter",
+            "name" : "Canister Filter",
             "port" : 4,
             "activeHigh" : false,
             "startTime" : "00:00:00",
             "endTime" : "23:59:59"
         },
         {
-            "name" : "tankFilter",
+            "name" : "Air Bubble",
             "port" : 24,
             "activeHigh" : false,
-            "startTime" : "00:00:00",
+            "startTime" : "14:30:00",
             "endTime" : "23:59:59"
         },
         {
-            "name" : "fishFeeder",
+            "name" : "Air Bubble",
+            "port" : 24,
+            "activeHigh" : false,
+            "startTime" : "00:00:00",
+            "endTime" : "07:15:00"
+        },
+        {
+            "name" : "Fish Feeder",
             "port" : 18,
             "activeHigh" : false,
-            "startTime" : "07:15:00",
-            "endTime" : "07:16:30"
+            "startTime" : "17:00:00",
+            "endTime" : "17:01:30"
+        },
+        {
+            "name" : "Fish Feeder",
+            "port" : 18,
+            "activeHigh" : false,
+            "startTime" : "08:30:00",
+            "endTime" : "08:31:30"
+        },
+        {
+            "name" : "Tank Light",
+            "port" : 27,
+            "activeHigh" : false,
+            "startTime" : "12:00:00",
+            "endTime" : "12:01:00"
         }
     ]
 }

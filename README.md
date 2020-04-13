@@ -2,6 +2,8 @@
 
 A small hobby project to control all tech used in my aquarium tank. This project uses Raspberry Pi 3 B+ to control C02 flow, Lights, Filter and Cooler. The objective of this project is to fully control an aquarium fish tank remotely.
 
+<img src="AquariumControl.png" alt="Screenshot showing the web interface for temporarily overriding the configuration" width="480">
+
 ## Getting Started
 
 ### Prerequisites
@@ -26,7 +28,9 @@ After=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/pi/Documents/AquariumControl/ExecStart=/usr/bin/python aquariumctl.py
+User=pi
+WorkingDirectory=/home/pi/Documents/AquariumControl/
+ExecStart=/usr/bin/python3 aquariumctl.py
 Restart=on-abort
 
 [Install]
